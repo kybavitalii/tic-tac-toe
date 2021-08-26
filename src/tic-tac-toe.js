@@ -1,35 +1,19 @@
 class TicTacToe {
-    constructor() {
+  constructor() {}
 
-    }
+  getCurrentPlayerSymbol() {}
 
-    getCurrentPlayerSymbol() {
+  nextTurn(rowIndex, columnIndex) {}
 
-    }
+  isFinished() {}
 
-    nextTurn(rowIndex, columnIndex) {
+  getWinner() {}
 
-    }
+  noMoreTurns() {}
 
-    isFinished() {
+  isDraw() {}
 
-    }
-
-    getWinner() {
-
-    }
-
-    noMoreTurns() {
-
-    }
-
-    isDraw() {
-
-    }
-
-    getFieldValue(rowIndex, colIndex) {
-
-    }
+  getFieldValue(rowIndex, colIndex) {}
 }
 
 module.exports = TicTacToe;
